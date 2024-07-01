@@ -1,9 +1,9 @@
 .buy_information{
-    border:  rgba(253, 95, 95, 0.81) 2px solid;
-    margin: 0 auto;
+    border:  rgba(251, 0, 0, 0.81) 5px solid;
+    margin: 100px auto;
     width: 65%;
     height: 650px;
-
+    padding: 30px;
 
 }
 .buy_information p {
@@ -13,8 +13,14 @@
     border-radius: 10px;
 
     &&:hover{
-        background: rgba(253, 95, 95, 0.81);
+        background: rgba(255, 0, 0, 0.81);
+        cursor: pointer;
     }
+}
+
+.type{
+    display: flex;
+    column-gap: 40px;
 }
 
 .format{
@@ -40,7 +46,7 @@
 }
 
 .type_paper{
-    display: flex;
+     display: flex;
      column-gap: 40px;
      font-weight: 600;
 }
@@ -56,14 +62,32 @@
     justify-content: end;
     gap: 20px;
     flex-direction: row;
+    margin: 30px auto;
 }
 .final_cost{
-font-weight: 600;
+    font-weight: 600;
     font-size: 27px;
     margin: auto 0;
 }
 .zakazat{
     width: 150px;
     height: 45px;
-    background: rgba(253, 95, 95, 0.81);
+    background: rgba(255, 0, 0, 0.81);
+    cursor: pointer;
+    border: 2.5px solid rgba(255, 67, 67, 0.81);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+
+    &&:hover{
+        opacity: 90%;
+    }
+
+    &&:active {
+        opacity: 85%;
+    }
+}
+
+.active {
+    background: rgba(255, 0, 0, 0.81);
 }
