@@ -10,6 +10,7 @@ import Homepage from './pages/Homepage/Homepage';
 import Footer from './components/footer';
 import Buy from "./pages/Buy/Buy";
 import Agencies from "./pages/Buy/Agencies/agencies";
+import Souveniers from "./pages/Souveniers/souveniers";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/feedback" element={<FeedBAck />} />
                 <Route path="/agencies" element={<Agencies/>}/>
                 <Route path="/buy" element={<Buy/>}/>
+                <Route path="/souveniers" element={<Souveniers/>}/>
             </Routes>
             <Footer/>
            </div>

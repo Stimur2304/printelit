@@ -1,0 +1,10 @@
+.sold_out_component{
+    background-image: url("../../assets/empty_product.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto
+;
+}
