@@ -1,0 +1,22 @@
+.advantage{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.advantage img{
+    width: 48px;
+    height: 36px;
+}
+.advantage-div{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: space-between;
+
+}
+.advantage p {
+    margin-left: 10px;
+    font-size: 12px;
+}
