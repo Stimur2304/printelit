@@ -1,0 +1,15 @@
+.agencies-page{
+
+}
+.first-background-agencies{
+    background-image: url('../../../assets/agentsvam.jpg');
+    width: 70%;
+   height: 100vh;
+    margin: 0 auto;
+}
+.second-background-agencies{
+    background-image: url("../../../assets/agentsvam2.jpg");
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+}

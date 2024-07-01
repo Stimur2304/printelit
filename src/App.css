@@ -263,8 +263,9 @@ z-index: 999;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto  ;
-  width: 67.6%;
+  width: 87.6%;
   gap: 15px;
+  justify-content: center;
   margin-bottom: 100px;
 
 
