@@ -32,9 +32,9 @@ export const Header = () => {
                         <div className='rightPart-header'>
                             <div style={{ display: "flex", alignItems: "center" }}>
                                 <img src={logIn} alt="Вход" />
-                                <Link className='a-header' to="/login">Вход</Link>
+                                <Link className='a-header' to="/feedback">Вход</Link>
                             </div>
-                            <Link to="/registration">Регистрация</Link>
+                            <Link to="/feedback">Регистрация</Link>
                         </div>
                     </nav>
                 </header>
@@ -64,8 +64,8 @@ export const Header = () => {
                             </div>
                         </div>
                     </nav>
-                    <Link className='a' to="/souvenirs">СУВЕНИРЫ</Link>
-                    <Link className='a' to="/photo-books">ФОТОКНИГИ</Link>
+                    <Link className='a' to="/souveniers">СУВЕНИРЫ</Link>
+                    <Link className='a' to="/souveniers">ФОТОКНИГИ</Link>
                     <nav className="dropdown">
                         <span className='span'>ФОТОСУВЕНИРЫ <img src={arrowDown} alt="Стрелка вниз" /></span>
                         <div className="dropdown-content2">
