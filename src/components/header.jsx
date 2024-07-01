@@ -77,7 +77,7 @@ export const Header = () => {
                             </div>
                         </div>
                     </nav>
-                    <Link className='a' to="/agencies">АГЕНТСТВА</Link>
+                    <Link className='a' to="/agencies">АГЕНТСТВАМ</Link>
                 </nav>
             </div>
         </div>

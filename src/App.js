@@ -8,6 +8,8 @@ import Vacancies from './pages/Vacancies';
 import FeedBAck from './pages/FeedBAck';
 import Homepage from './pages/Homepage/Homepage';
 import Footer from './components/footer';
+import Buy from "./pages/Buy/Buy";
+import Agencies from "./pages/Buy/Agencies/agencies";
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/vacancies" element={<Vacancies />} />
                 <Route path="/feedback" element={<FeedBAck />} />
-
+                <Route path="/agencies" element={<Agencies/>}/>
+                <Route path="/buy" element={<Buy/>}/>
             </Routes>
             <Footer/>
            </div>

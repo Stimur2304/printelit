@@ -19,18 +19,26 @@ const products = [
 ];
 
 const Products = () => {
+
     return (
        <div className='flex'>
-        {products.map((item,index)=>{
-            return(
-                <div className="flex1" key={index} style={{backgroundImage:`url(${item.image})`,width:"560px",height:"270px",backgroundSize:"100%"}}>
-                   <div className='flex2'>
-                        <p className='flex__n '> {item.name}</p>
-                            <p className='flex__p '>{item.price}</p>
-                   </div>
-                </div>
-            )
-        })}
+           {products.map((item,index)=>{
+               return(
+                   <Link to={'/Buy'}>
+                       <div className="flex1" key={index} style={{
+                           backgroundImage: `url(${item.image})`,
+                           width: "560px",
+                           height: "270px",
+                           backgroundSize: "100%"
+                       }}>
+                           <div className='flex2'>
+                               <p className='flex__n '> {item.name}</p>
+                               <p className='flex__p '>{item.price}</p>
+                           </div>
+                       </div>
+                   </Link>
+               )
+           })}
        </div>
     );
 }
