@@ -57,10 +57,10 @@ export const Header = () => {
                         <span className='span'>ПОЛИГРАФИЯ <img src={arrowDown} alt="Стрелка вниз" /></span>
                         <div className="dropdown-content">
                             <div className="content">
-                                <Link to="/business-cards">Визитки</Link>
-                                <Link to="/brochures">Буклеты</Link>
-                                <Link to="/flyers">Листовки</Link>
-                                <Link to="/leaflets">Флаеры</Link>
+                                <Link to="/">Визитки</Link>
+                                <Link to="/">Буклеты</Link>
+                                <Link to="/">Листовки</Link>
+                                <Link to="/">Флаеры</Link>
                             </div>
                         </div>
                     </nav>
@@ -70,10 +70,10 @@ export const Header = () => {
                         <span className='span'>ФОТОСУВЕНИРЫ <img src={arrowDown} alt="Стрелка вниз" /></span>
                         <div className="dropdown-content2">
                             <div className="content">
-                                <Link to="/calendars">Календари</Link>
-                                <Link to="/posters">Плакаты</Link>
-                                <Link to="/leaflets">Листовки</Link>
-                                <Link to="/folders">Папки</Link>
+                                <Link to="/">Календари</Link>
+                                <Link to="/">Плакаты</Link>
+                                <Link to="/">Листовки</Link>
+                                <Link to="/">Папки</Link>
                             </div>
                         </div>
                     </nav>
